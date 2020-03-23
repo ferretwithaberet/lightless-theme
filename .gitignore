@@ -1,0 +1,12 @@
+# VS Code
+**/.vscode/
+.vscode-test/**
+.vscodeignore
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# App Specific
+vsc-extension-quickstart.md

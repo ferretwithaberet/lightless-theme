@@ -1,0 +1,21 @@
+{
+    "name": "lightless-theme",
+    "displayName": "lightless-theme",
+    "description": "An improved dark theme for Visual Studio Code.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lightless Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Lightless Dark Theme-color-theme.json"
+            }
+        ]
+    }
+}
