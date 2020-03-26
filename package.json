@@ -1,50 +1,50 @@
 {
-    "name": "lightless",
-    "displayName": "Lightless Theme",
-    "description": "An improved dark theme for Visual Studio Code, inspired by Deepdark by Nimda.",
-    "version": "0.0.1",
-    "publisher": "TwoDevs",
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "__metadata": {
-        "publisherDisplayName": "Two Devs",
-        "publisherId": "TwoDevs"
-    },
-    "homepage": "https://github.com/RadoiAndrei/lightless-theme/blob/master/README.md",
-    "license": "MIT",
-    "categories": [
-        "Themes"
-    ],
-    "icon": "assets/logo.png",
-    "keywords": [
-        "lightless",
-        "blackout",
-        "dim",
-        "dark",
-        "black",
-        "grey",
-        "gray",
-        "material",
-        "darkgrey",
-        "theme",
-        "deepdark"
-    ],
-    "galleryBanner": {
-        "color": "#080808",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/RadoiAndrei/lightless-theme/"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Lightless Dark Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Lightless Dark Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "lightless",
+  "displayName": "Lightless Theme",
+  "description": "An improved dark theme for Visual Studio Code, inspired by Deepdark by Nimda.",
+  "version": "0.0.1",
+  "publisher": "TwoDevs",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "__metadata": {
+    "publisherDisplayName": "Two Devs",
+    "publisherId": "TwoDevs"
+  },
+  "homepage": "https://github.com/RadoiAndrei/lightless-theme/blob/master/README.md",
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/logo.png",
+  "keywords": [
+    "lightless",
+    "blackout",
+    "dim",
+    "dark",
+    "black",
+    "grey",
+    "gray",
+    "material",
+    "darkgrey",
+    "theme",
+    "deepdark"
+  ],
+  "galleryBanner": {
+    "color": "#080808",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RadoiAndrei/lightless-theme/"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lightless Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lightless-dark.json"
+      }
+    ]
+  }
 }
