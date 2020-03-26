@@ -3,7 +3,6 @@
   "type": "dark",
   "author": "Two Devs",
   "tokenColors": [
-
     {
       "name": "Comment",
       "scope": ["comment"],
@@ -11,7 +10,6 @@
         "foreground": "#808080"
       }
     },
-
     {
       "name": "[JAVASCRIPT] - Numbers",
       "scope": "source.js constant",
@@ -54,7 +52,6 @@
         "foreground": "#ff3e3e"
       }
     },
-
     {
       "name": "Operator (`+`, `-`, `!`, `typeof`, `instanceof`, etc.)",
       "scope": ["keyword.operator"],
@@ -562,8 +559,6 @@
         "foreground": "#FFD14A"
       }
     },
-
-
     {
       "name": "Doctype Declaration (`<!DOCTYPE html>`)",
       "scope": [
@@ -617,9 +612,6 @@
         "foreground": "#B8FCB1"
       }
     },
-
-
-
     {
       "name": "Property Name",
       "scope": ["support.type.property-name"],
@@ -772,8 +764,6 @@
         "foreground": "#D77676"
       }
     },
-
-
     {
       "name": "Block Comment",
       "scope": ["comment storage.type", "comment punctuation.definition.block"],
@@ -819,7 +809,6 @@
         "foreground": "#C5C8C6"
       }
     },
-
     {
       "name": "String Embedded Source",
       "scope": "string source",
@@ -905,9 +894,6 @@
         "foreground": "#B2B2B1"
       }
     },
-
-
-
     {
       "name": "Embedded PHP Tags (`<?php ... ?>` in .phtml file)",
       "scope": ["punctuation.section.embedded"],
@@ -953,7 +939,6 @@
         "foreground": "#FF5E5E"
       }
     },
-
     {
       "name": "Operator (`SELECT`, `FROM`, `GROUP BY`, etc.)",
       "scope": [
@@ -972,9 +957,6 @@
         "foreground": "#D77676"
       }
     },
-
-
-
     {
       "name": "Headings (`# My Heading`)",
       "scope": ["entity.name.section", "punctuation.definition.heading"],
@@ -1030,7 +1012,6 @@
       "settings": {
         "foreground": "#B2B2B1"
       }
-
     },
     {
       "name": "Code Block (```)",
