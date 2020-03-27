@@ -1193,8 +1193,8 @@
     "menu.background": "#0c0c0c",
     "menu.foreground": "#8C8C8A",
     "menu.selectionBackground": "#212121",
-    "menu.selectionForeground": "#F3C900",
+    "menu.selectionForeground": "#23A9F2",
     "menubar.selectionBackground": "#212121",
-    "menubar.selectionForeground": "#F3C900"
+    "menubar.selectionForeground": "#23A9F2"
   }
 }
