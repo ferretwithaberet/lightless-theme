@@ -16,7 +16,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "/src/assets/logo.jpg",
+  "icon": "assets/logo.jpg",
   "keywords": [
     "lightless",
     "blackout",
