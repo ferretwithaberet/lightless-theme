@@ -10,10 +10,11 @@
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/RadoiAndrei/lightless-theme?style=for-the-badge&logo=github&logoColor=black">
   <img src="https://img.shields.io/github/contributors/RadoiAndrei/lightless-theme?style=for-the-badge&logo=github&logoColor=black">
+</p
+  
+<p align="center">
+I was searching for a great dark theme for myself since long time ago. I love really dark themes, tha's why I instantly loved Deepdark by Nimbda, but I like the color scheme of Material Theme by Mattia Astorino. So, I decided to combine those two themes, tweak some other things to my liking and that's how Lightless by Two Devs came to be!
 </p>
 
-
-
-
-
-## In progress...
+## Screenshot
+![Preview](https://raw.githubusercontent.com/radoiandrei/lightless-theme/master/preview/preview.jpg "Preview")
