@@ -16,7 +16,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "/dist/assets/logo.jpg",
+  "icon": "/src/assets/logo.jpg",
   "keywords": [
     "lightless",
     "blackout",
@@ -46,7 +46,7 @@
       {
         "label": "Lightless Dark Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/lightless-dark.json"
+        "path": "./dist/themes/lightless-dark.json"
       }
     ]
   }
