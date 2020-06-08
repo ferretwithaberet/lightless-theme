@@ -16,5 +16,7 @@
 I was searching for a great dark theme for myself since long time ago. I love really dark themes, tha's why I instantly loved Deepdark by Nimbda, but I like the color scheme of Material Theme by Mattia Astorino. So, I decided to combine those two themes, tweak some other things to my liking and that's how Lightless by Two Devs came to be!
 </p>
 
+[Get theme from Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TwoDevs.lightless)
+
 ## Screenshot
 ![Preview](https://raw.githubusercontent.com/radoiandrei/lightless-theme/master/preview/preview.jpg "Preview")
