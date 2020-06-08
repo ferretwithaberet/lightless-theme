@@ -1,40 +1,41 @@
 const fs = require('fs');
 const Color = require('color');
 
+// Theme
+let theme = require('./schemes/purple.json');
 // Colors
 const primary = Color(theme['primary']);
 const black = Color('#000000');
 const white = Color('#ffffff');
-
-// Theme
-let theme = require('./schemes/purple.json');
+// Transparency levels
+const transparency1 = Math.round(.25 * 255).toString(16)
+const transparency2 = Math.round(.5 * 255).toString(16)
+const transparency3 = Math.round(.75 * 255).toString(16)
 
 theme = {
     ...theme,
-    ...{
-        // Basic colors
-        "black": black.hex(),
-        "white": white.hex(),
-        "grey": white.darken(.47).hex(),
-        "transparent": Color('#00000000').hex(),
-        // Base backgrounds
-        "primaryBackground": white.darken(.98).hex(),
-        "secondaryBackground": white.darken(.93).hex(),
-        // Shades of primary
-        "primaryLighter": primary.lighten(.25).hex(),
-        "primaryHover": primary.darken(.15).hex(),
-        "primaryDarker": primary.darken(.25).hex(),
-        "primary-1": primary.hex() + Math.round(.25 * 255).toString(16),
-        "primary-2": primary.hex() + Math.round(.5 * 255).toString(16),
-        "primary-3": primary.hex() + Math.round(.75 * 255).toString(16),
-        // Shades of transparent
-        "darken-1": black.hex() + Math.round(.25 * 255).toString(16),
-        "darken-2": black.hex() + Math.round(.5 * 255).toString(16),
-        "darken-3": black.hex() + Math.round(.75 * 255).toString(16),
-        "lighten-1": white.hex() + Math.round(.25 * 255).toString(16),
-        "lighten-2": white.hex() + Math.round(.5 * 255).toString(16),
-        "lighten-3": white.hex() + Math.round(.75 * 255).toString(16)
-    }
+    // Basic colors
+    "black": black.hex(),
+    "white": white.hex(),
+    "grey": white.darken(.47).hex(),
+    "transparent": Color('#00000000').hex(),
+    // Base backgrounds
+    "primaryBackground": white.darken(.98).hex(),
+    "secondaryBackground": white.darken(.93).hex(),
+    // Shades of primary
+    "primaryLighter": primary.lighten(.25).hex(),
+    "primaryHover": primary.darken(.15).hex(),
+    "primaryDarker": primary.darken(.25).hex(),
+    "primary-1": primary.hex() + transparency1,
+    "primary-2": primary.hex() + transparency2,
+    "primary-3": primary.hex() + transparency3,
+    // Shades of transparent
+    "darken-1": black.hex() + transparency1,
+    "darken-2": black.hex() + transparency2,
+    "darken-3": black.hex() + transparency3,
+    "lighten-1": white.hex() + transparency1,
+    "lighten-2": white.hex() + transparency2,
+    "lighten-3": white.hex() + transparency3
 }
 
 // Create theme file
