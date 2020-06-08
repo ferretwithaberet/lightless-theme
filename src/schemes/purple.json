@@ -1,6 +1,4 @@
 {
-    "mainBackground": "#050505",
-    "background2": "#1c1c1c",
     "primary": "#b640de",
-    "primaryHover": "#8d2fad"
+    "error": "#C43235"
 }
