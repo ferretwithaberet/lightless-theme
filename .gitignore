@@ -1,5 +1,4 @@
 # VS Code
-**/.vscode/
 .vscode-test/**
 .vscodeignore
 !.vscode/settings.json
