@@ -2,7 +2,7 @@
   "name": "lightless",
   "displayName": "Lightless Theme",
   "description": "An improved dark theme for Visual Studio Code, inspired by Deepdark by Nimda.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "TwoDevs",
   "engines": {
     "vscode": "^1.43.0"
@@ -16,7 +16,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "assets/logo.png",
+  "icon": "/dist/assets/logo.jpg",
   "keywords": [
     "lightless",
     "blackout",
@@ -37,6 +37,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/RadoiAndrei/lightless-theme/"
+  },
+  "scripts": {
+    "build": "node ./src/index.js"
   },
   "contributes": {
     "themes": [

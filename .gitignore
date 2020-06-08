@@ -9,5 +9,6 @@
 *.code-workspace
 
 # App Specific
+dist/themes/
 vsc-extension-quickstart.md
 **.vsix
