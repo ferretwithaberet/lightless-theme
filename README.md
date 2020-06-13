@@ -21,4 +21,5 @@ I was searching for a great dark theme for myself since long time ago. I love re
 [Get theme from Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TwoDevs.lightless)
 
 ## Screenshot
-![Preview](https://raw.githubusercontent.com/radoiandrei/lightless-theme/master/preview/preview.jpg "Preview")
+
+![Preview](https://raw.githubusercontent.com/radoiandrei/lightless-theme/master/preview/preview.jpg 'Preview')

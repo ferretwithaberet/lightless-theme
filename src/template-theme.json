@@ -447,9 +447,7 @@
     },
     {
       "name": "Keyword Control",
-      "scope": [
-        "keyword.control"
-      ],
+      "scope": ["keyword.control"],
       "settings": {
         "foreground": "#89DDFF",
         "fontStyle": "italic"
@@ -457,9 +455,7 @@
     },
     {
       "name": "Markdown - Blockquote",
-      "scope": [
-        "markup.quote"
-      ],
+      "scope": ["markup.quote"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#89DDFF"
@@ -467,18 +463,14 @@
     },
     {
       "name": "Markdown - Fenced Language",
-      "scope": [
-        "markup.fenced_code.block"
-      ],
+      "scope": ["markup.fenced_code.block"],
       "settings": {
         "foreground": "#EEFFFF90"
       }
     },
     {
       "name": "Markdown - Blockquote Punctuation",
-      "scope": [
-        "punctuation.definition.quote"
-      ],
+      "scope": ["punctuation.definition.quote"],
       "settings": {
         "foreground": "#ff9cac"
       }
@@ -586,7 +578,7 @@
     "list.errorForeground": "${error}",
     "list.warningForeground": "#F3C900",
     "activityBar.foreground": "${white}",
-    "activityBar.inactiveForeground" : "${grey}",
+    "activityBar.inactiveForeground": "${grey}",
     "activityBar.background": "${primaryBackground}",
     "activityBarBadge.background": "${primary}",
     "activityBarBadge.foreground": "${black}",

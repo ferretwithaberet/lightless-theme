@@ -14,9 +14,7 @@
   },
   "homepage": "https://github.com/RadoiAndrei/lightless-theme/blob/master/README.md",
   "license": "MIT",
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "icon": "assets/logo.jpg",
   "keywords": [
     "lightless",
@@ -42,6 +40,11 @@
   "scripts": {
     "build": "node ./src/index.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "contributes": {
     "themes": [
       {
@@ -53,5 +56,31 @@
   },
   "dependencies": {
     "color": "^3.1.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
+    "husky": "^4.2.5",
+    "prettier": "2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "prettier": {
+    "semi": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "useTabs": false,
+    "singleQuote": true,
+    "endOfLine": "lf",
+    "overrides": [
+      {
+        "files": ["package.json"],
+        "options": {
+          "parser": "json"
+        }
+      }
+    ]
   }
 }
