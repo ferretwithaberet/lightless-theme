@@ -1,13 +1,13 @@
-const fs = require('fs');
-const Color = require('color');
-const { hexaFromColor } = require('./utils');
+import * as fs from 'fs';
+import Color from 'color';
+import { hexaFromColor } from './utils';
 
 // Colors
-const primary = Color('#118000');
-const black = Color('#000000');
-const white = Color('#ffffff');
+const primary: Color = Color('#118000');
+const black: Color = Color('#000000');
+const white: Color = Color('#ffffff');
 
-theme = {
+const theme: { [key: string]: string } = {
   // Basic colors
   primary: primary.hex(),
   error: '#C43235',
@@ -35,22 +35,30 @@ theme = {
 };
 
 // Create theme file
-fs.readFile('./src/template-theme.json', 'utf8', (err, data) => {
-  if (err) throw err;
-
-  // For each key in theme, replace it in the theme data
-  for (key in theme) {
-    data = data.split(`\${${key}}`).join(theme[key]);
-  }
-
-  // Make sure dist/themes/ exists
-  fs.mkdir('./dist/themes/', { recursive: true }, (err) => {
+fs.readFile(
+  './src/template-theme.json',
+  'utf8',
+  (err: Error | null, data: string) => {
     if (err) throw err;
 
-    // Write new data to dist theme
-    fs.writeFile('./dist/themes/lightless-dark.json', data, (err) => {
+    // For each key in theme, replace it in the theme data
+    for (const key in theme) {
+      data = data.split(`\${${key}}`).join(theme[key]);
+    }
+
+    // Make sure dist/themes/ exists
+    fs.mkdir('./dist/themes/', { recursive: true }, (err: Error | null) => {
       if (err) throw err;
-      console.info('Theme successfully built!');
+
+      // Write new data to dist theme
+      fs.writeFile(
+        './dist/themes/lightless-dark.json',
+        data,
+        (err: Error | null) => {
+          if (err) throw err;
+          console.info('Theme successfully built!');
+        }
+      );
     });
-  });
-});
+  }
+);
