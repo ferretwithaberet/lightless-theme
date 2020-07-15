@@ -38,7 +38,9 @@
     "url": "https://github.com/RadoiAndrei/lightless-theme/"
   },
   "scripts": {
-    "build": "node ./src/index.js"
+    "build": "npm run build:ts && npm run build:theme",
+    "build:ts": "tsc",
+    "build:theme": "node ./build/index.js"
   },
   "husky": {
     "hooks": {
