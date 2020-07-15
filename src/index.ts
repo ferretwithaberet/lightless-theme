@@ -3,7 +3,7 @@ import Color from 'color';
 import { hexaFromColor } from './utils';
 
 // Colors
-const primary = Color('#8365FF');
+const primary = Color('#8055FA');
 const black = Color('#000000');
 const white = Color('#ffffff');
 

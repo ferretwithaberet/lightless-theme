@@ -131,6 +131,5 @@ dist
 
 # App Specific
 dist/
-build/
 vsc-extension-quickstart.md
 **.vsix
