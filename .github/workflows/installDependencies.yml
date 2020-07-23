@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: npm install
 
 on:
   push:
@@ -20,7 +20,3 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Depedencies
         run: npm install
-      # - name: tests
-      #   run: npm run test:unit
-      - name: build
-        run: npm run build
