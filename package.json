@@ -38,7 +38,8 @@
     "url": "https://github.com/RadoiAndrei/lightless-theme/"
   },
   "scripts": {
-    "build": "npx ts-node --transpile-only ./src"
+    "build": "npx ts-node --transpile-only ./src",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "husky": {
     "hooks": {
