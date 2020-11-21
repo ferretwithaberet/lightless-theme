@@ -10,8 +10,8 @@
   </a>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/RadoiAndrei/lightless-theme?style=for-the-badge&logo=github&logoColor=black">
-  <img src="https://img.shields.io/github/contributors/RadoiAndrei/lightless-theme?style=for-the-badge&logo=github&logoColor=black">
+  <img src="https://img.shields.io/github/last-commit/ferretwithaberet/lightless-theme?style=for-the-badge&logo=github&logoColor=black">
+  <img src="https://img.shields.io/github/contributors/ferretwithaberet/lightless-theme?style=for-the-badge&logo=github&logoColor=black">
 </p
   
 <p align="center">
@@ -22,4 +22,4 @@ I was searching for a great dark theme for myself since long time ago. I love re
 
 ## Screenshot
 
-![Preview](https://raw.githubusercontent.com/radoiandrei/lightless-theme/master/preview/preview.jpg 'Preview')
+![Preview](https://raw.githubusercontent.com/ferretwithaberet/lightless-theme/master/preview/preview.jpg 'Preview')
