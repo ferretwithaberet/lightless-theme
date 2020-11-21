@@ -20,7 +20,7 @@ const theme: { [key: string]: string } = {
   secondaryBackground: white.darken(0.93).hex(),
   // Shades of primary
   primaryLighter: primary.lighten(0.25).hex(),
-  primaryHover: primary.darken(0.15).hex(),
+  primaryHover: primary.darken(0.15).saturate(-0.2).hex(),
   primaryDarker: primary.darken(0.25).hex(),
   'primary-1': hexaFromColor(primary.alpha(0.25)),
   'primary-2': hexaFromColor(primary.alpha(0.5)),
