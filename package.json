@@ -2,7 +2,7 @@
   "name": "lightless",
   "displayName": "Lightless Theme",
   "description": "An improved dark theme for Visual Studio Code, inspired by Deepdark by Nimda and Material Theme by Mattia Astorino.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "TwoDevs",
   "engines": {
     "node": "<=12",

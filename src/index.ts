@@ -11,6 +11,7 @@ const theme: { [key: string]: string } = {
   // Basic colors
   primary: primary.hex(),
   error: '#C43235',
+  warning: '#F3C900',
   black: black.hex(),
   white: white.hex(),
   grey: white.darken(0.47).hex(),
@@ -35,7 +36,7 @@ const theme: { [key: string]: string } = {
 };
 
 // Create theme file
-fs.readFile('./src/template-theme.json', 'utf8', (err, data) => {
+fs.readFile('./src/template-color-theme.json', 'utf8', (err, data) => {
   if (err) throw err;
 
   // For each key in theme, replace it in the theme data
