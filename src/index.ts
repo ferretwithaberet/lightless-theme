@@ -1,5 +1,7 @@
 import * as fs from 'fs';
 import Color from 'color';
+import { parse, stringify } from 'comment-json';
+
 import { hexaFromColor } from './utils';
 
 // Colors
@@ -49,6 +51,7 @@ fs.readFile('./src/template-color-theme.json', 'utf8', (err, data) => {
     if (err) throw err;
 
     // Write new data to dist theme
+    data = stringify(parse(data, undefined, true));
     fs.writeFile('./dist/themes/lightless-dark.json', data, (err) => {
       if (err) throw err;
       console.info('Theme successfully built!');
